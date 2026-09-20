@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Tube Api</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <header>
+        <nav class="flex mx-auto w-11/12 justify-between py-3 border-b border-gray-400 pb-4">
+            <div class="logo">
+                <img src="assets/logo.png" class="h-12"/>
+            </div>
+            <div class="search">
+                    <input type="text" placeholder="Search" class="input w-24 md:w-auto" />
+            </div>
+            <div class="sort">
+                <button class="btn">Sort</button>
+            </div>
+        </nav>
+    </header>
+
+    <nav id="categories" class="flex mx-auto w-11/12 justify-center py-4">
+        <button class="btn" id="all-btn">All</button>
+    </nav>
+
+    <section id="card-container" class="flex flex-wrap justify-start w-11/12 py-3 mx-auto">
+        
+    </section>
+    <script src="scripts/video.js"></script>
+</body>
+</html>
